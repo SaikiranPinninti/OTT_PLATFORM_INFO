@@ -1,0 +1,264 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+/* Add some global styles */
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 1.6;
+    color: #333;
+  }
+
+header {
+    background-color: orangered;
+    color: #fff;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 15px;
+}
+
+h1 {
+    margin: 0;
+    margin-bottom: 10px;
+}
+.header-search-genres {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .header-search-genres input,
+  .header-search-genres select {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 5px;
+  }
+  
+  .header-search-genres select {
+    width: 200px;
+  }
+
+main {
+    padding: 20px;
+}
+
+/* Customize the styling of the OTT platform cards */
+.platform-card {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.platform-card h2 {
+  margin: 0;
+  font-size: 1.4rem;
+  margin-bottom: 10px;
+}
+
+.platform-card p {
+    margin-bottom: 8px;
+}
+
+
+/* Normal link styles */
+a:link, a:visited {
+    background-color: white;
+    color: black;
+    border: 2px solid green;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+  a:hover, a:active {
+    background-color: green;
+    color: white;
+  }
+
+  /* Styles for responsive design */
+@media screen and (max-width: 768px) {
+    /* Adjust the layout for smaller screens */
+    .platform-card {
+      display: flex;
+      flex-direction: column;
+    }
+  
+    .platform-card img {
+      max-width: 100%; /* Make images responsive */
+      margin-bottom: 10px;
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    /* Further adjustments for smaller screens */
+    .filters {
+      display: flex;
+      flex-direction: column;
+    }
+  
+    /* Center-align the filter elements */
+    #search-input,
+    #genre-filter {
+      margin: 10px auto;
+    }
+  
+    .platform-card {
+      padding: 15px;
+    }
+  }
+
+  /* Filters section */
+.filters {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .filters input,
+  .filters select {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .filters select {
+    width: 200px;
+    margin-left: 10px;
+  }
+
+/* Pagination styles */
+.pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .pagination button {
+    padding: 8px 16px;
+    margin: 0 5px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .pagination button:hover {
+    background-color: #ddd;
+  }
+  
+  .pagination button.active {
+    background-color: #007BFF;
+    color: #fff;
+  }
+
+/*footer */ 
+  footer {
+    background-color: #f0f0f0;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .follow-us,
+  .help-services {
+    flex: 1;
+    max-width: 300px;
+    padding: 10px;
+  }
+  
+  .follow-us h3,
+  .help-services h3 {
+    margin: 0;
+    margin-bottom: 10px;
+  }
+  
+  .follow-us ul,
+  .help-services ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .follow-us li,
+  .help-services li {
+    margin-bottom: 5px;
+  }
+  
+  .follow-us a,
+  .help-services a {
+    color: #007BFF;
+    text-decoration: none;
+  }
+  
+  .follow-us a:hover,
+  .help-services a:hover {
+    text-decoration: underline;
+  }
+
+
+  /* Styles for the navigation bar */
+nav {
+    background-color: #333;
+    color: gray;
+    text-align: center;
+    
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    
+  }
+  
+  .navbar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+  }
+  
+  .navbar li {
+    margin: 0 10px;
+  }
+  
+  .navbar a {
+    color: black;
+    text-decoration: none;
+    padding: 8px 16px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+  }
+  
+  .navbar a:hover {
+    background-color: #555;
+  }
+  
+  .navbar-search-genres {
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar-search-genres input,
+  .navbar-search-genres select {
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+    margin: 5px;
+  }
+  
+  .navbar-search-genres select {
+    width: 200px;
+  }
